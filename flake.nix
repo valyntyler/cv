@@ -8,10 +8,16 @@
       systems = ["x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin"];
       perSystem = {pkgs, ...}: {
         devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            just
-            rendercv
-          ];
+          buildInputs = with pkgs; [rendercv];
+        };
+        packages = rec {
+          default = render;
+          render = pkgs.writeShellScriptBin "render" ''
+            ${pkgs.lib.getExe pkgs.rendercv} render cv.yaml
+          '';
+          watch = pkgs.writeShellScriptBin "watch" ''
+            ${pkgs.lib.getExe pkgs.rendercv} render --watch cv.yaml
+          '';
         };
       };
     };
