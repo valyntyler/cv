@@ -94,10 +94,6 @@
 )
 
 
-== Foobar
-
-spam spam spam spam
-
 == Brief
 
 Inter-disciplinary Developer and Software Engineer with a specialization in Systems development, DevOps, and CD\/CI workflows. Open source contributor and enthusiast. Current student and lifelong learner.
