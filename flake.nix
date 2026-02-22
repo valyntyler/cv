@@ -8,7 +8,10 @@
       systems = ["x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin"];
       perSystem = {pkgs, ...}: {
         devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [rendercv];
+          buildInputs = with pkgs; [
+            just
+            rendercv
+          ];
         };
       };
     };
