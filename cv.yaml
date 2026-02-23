@@ -2,189 +2,103 @@
 cv:
   name: Valyn Tyler
   headline:
-  location: San Francisco, CA
-  email: john.doe@email.com
+  location: Enschede, Netherlands
+  email: contact@valyntyler.com
   photo:
   phone:
-  website: https://rendercv.com/
+  website: https://valyntyler.com/
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: valyn-tyler
     - network: GitHub
-      username: rendercv
+      username: valyntyler
   custom_connections:
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - See the [documentation](https://docs.rendercv.com) for more details.
+    brief:
+      - Inter-disciplinary Developer and Software Engineer with a specialization
+        in Systems development, DevOps, and CD/CI workflows. Open source contributor
+        and enthusiast. Current student and lifelong learner.
     education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2018-09
-        end_date: 2023-05
-        location: Princeton, NJ
-        summary:
-        highlights:
-          - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-          - 'Advisor: Prof. Sanjeev Arora'
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-      - institution: Boğaziçi University
-        area: Computer Engineering
-        degree: BS
-        date:
-        start_date: 2014-09
-        end_date: 2018-06
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - 'GPA: 3.97/4.00, Valedictorian'
-          - Fulbright Scholarship recipient for graduate studies
-    experience:
-      - company: Nexus AI
-        position: Co-Founder & CTO
-        date:
-        start_date: 2023-06
+      - institution: University of Twente
+        area: Technical Computer Science
+        degree: BSc
+        start_date: 2025-09
         end_date: present
-        location: San Francisco, CA
+        location: Enschede, Netherlands
         summary:
-        highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
-      - company: NVIDIA Research
-        position: Research Intern
-        date:
-        start_date: 2022-05
-        end_date: 2022-08
-        location: Santa Clara, CA
-        summary:
-        highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
-      - company: Google DeepMind
-        position: Research Intern
-        date:
-        start_date: 2021-05
-        end_date: 2021-08
-        location: London, UK
-        summary:
-        highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published research at top-tier venues with significant academic impact
-            - ICML 2022 main conference paper, cited 340+ times within two years
-            - NeurIPS 2022 workshop paper on emergent communication protocols
-            - Invited journal extension in JMLR (2023)
-      - company: Apple ML Research
-        position: Research Intern
-        date:
-        start_date: 2020-05
-        end_date: 2020-08
-        location: Cupertino, CA
-        summary:
-        highlights:
-          - Created on-device neural network compression pipeline deployed across 50M+ devices
-          - Filed 2 patents on efficient model quantization techniques for edge inference
-      - company: Microsoft Research
-        position: Research Intern
-        date:
-        start_date: 2019-05
-        end_date: 2019-08
-        location: Redmond, WA
-        summary:
-        highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
     projects:
-      - name: '[FlashInfer](https://github.com/)'
-        date:
-        start_date: 2023-01
+      - name: '[Curriculum Vitae](https://github.com/valyntyler/cv)'
+        date: 2026-02
+        summary: Declarative CV built from `YAML` and overengineered with Nix
+      - name: '[Wofizilla](https://github.com/valyntyler/wofizilla)'
+        date: 2025-03
+        highlights:
+          - Dead simple tool for picking between your Firefox profiles
+          - Built on Wofi, with Nushell and Nix
+      - name: '[NixOS config](https://github.com/valyntyler/dotnixos)'
+        start_date: 2024
         end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
+        summary:
+          Linux dotfiles and multi-system configuration. The Nix declarative-functional paradign ensures
+          atomicity and reproducibility for a reliable and performant and system solution.
+      - name: '[NVF config](https://github.com/valyntyler/dotnvf)'
+        start_date: 2025
+        end_date: present
+        summary:
+          My personal editor. Atomic and reproducible, bringing fined tuned, highly performant agentic workflows to any machine.
+      - name: '[Toy Game Engine](https://github.com/valyntyler/suoi_game)'
+        date: 2024-05
+        summary: A basic 3D Game Engine written in Rust, from scratch.
+    volunteer_work:
+      - company: T.C.P. Archivia
+        position: Co-founder, Chairman of the candidate board
+        location: University of Twente
+        start_date: 2026
+        end_date: present
+        summary: Student Association for Competitive Programming
+      - company: I.C.T.S.V. Inter-Actief
+        position: Active Member
+        location: University of Twente
+        start_date: 2025
+        end_date: present
+        summary: Study association for Technical Computer Science and Business Information Technology at the University of Twente
         highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: '[NeuralPrune](https://github.com/)'
-        date: '2021'
-        start_date:
-        end_date:
-        location:
-        summary: Automated neural network pruning toolkit with differentiable masks
+            - "**Game Jams and Hackathons Committee** — Chairman (2026–present)"
+            - "**LAN Committee** — Secretary (2026–present)"
+            - "**Gaming Committee** Head of Contest — (2025–2026)"
+    contests:
+      - name: International Collegiate Programming Contest
+        date: 2025
         highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-    publications:
-      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
-        authors:
-          - '*John Doe*'
-          - Sarah Williams
-          - David Park
-        summary:
-        doi: 10.1234/neurips.2023.1234
-        url:
-        journal: NeurIPS 2023
-        date: 2023-07
-      - title: Neural Architecture Search via Differentiable Pruning
-        authors:
-          - James Liu
-          - '*John Doe*'
-        summary:
-        doi: 10.1234/neurips.2022.5678
-        url:
-        journal: NeurIPS 2022, Spotlight
-        date: 2022-12
-      - title: Multi-Agent Reinforcement Learning with Emergent Communication
-        authors:
-          - Maria Garcia
-          - '*John Doe*'
-          - Tom Anderson
-        summary:
-        doi: 10.1234/icml.2022.9012
-        url:
-        journal: ICML 2022
-        date: 2022-07
-      - title: On-Device Model Compression via Learned Quantization
-        authors:
-          - '*John Doe*'
-          - Kevin Wu
-        summary:
-        doi: 10.1234/iclr.2021.3456
-        url:
-        journal: ICLR 2021, Best Paper Award
-        date: 2021-05
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
+          - "**[NWERC](https://2025.nwerc.eu/)** Northwestern Europe Regional Contest"
+          - "**[BAPC](https://2025.bapc.eu/)** Benelux Algorithm Programming Contest"
+          - "**[TAPC](https://tapc.ia.utwente.nl/)** Twents Algorithm Programming Contest"
+      - name: Arbitrum Stylus Hackathon
+        location: Bucharest
+        date: 2024-11
+        summary: 1st place
+      - name: INFOEDUCAȚIE Creation and Inovation Olympiad
+        location: Brașov
+        date: 2024-05
+        summary: 2nd place
+      - name: INFOTRON Mechatronics Contest
+        location: Brașov
+        date: 2023-06
+        summary: 1st place
+    creative_works:
+      - bullet: '**Cluj Game Jam 2025**, Contest Submission'
+      - bullet: '**Global Game Jam 2025**, Contest Submission'
+      - bullet: '**Scream Jam 2023**, Contest Submission'
+      - bullet: '**Ludum Dare 53**, Contest Submission'
+      - bullet: '**Ludum Dare 51**, Contest Submission'
+      - bullet: '**Brackeys Game Jam 2022.2**, Contest Submission'
     skills:
       - label: Languages
-        details: Python, C++, CUDA, Rust, Julia
-      - label: ML Frameworks
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
+        details: Rust, C++, C#, Kotlin, Typescript, Go, Nix
       - label: Infrastructure
-        details: Kubernetes, Ray, distributed training, AWS, GCP
-      - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
-    any_section_title:
-      - You can use any section title you want.
-      - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
-      - Markdown syntax is supported everywhere.
-      - The `design` field in YAML gives you control over almost any aspect of your CV design.
-      - See the [documentation](https://docs.rendercv.com) for more details.
+        details: Linux, Git/VC, Docker/OCI, NixOS
+      - label: Tools & Frameworks
+        details: .NET, Unity, Vue.js, Jetpack Compose
 design:
   theme: classic
   # page:
