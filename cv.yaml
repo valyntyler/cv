@@ -15,9 +15,7 @@ cv:
   custom_connections:
   sections:
     brief:
-      - Inter-disciplinary Developer and Software Engineer with a specialization
-        in Systems development, DevOps, and CD/CI workflows. Open source contributor
-        and enthusiast. Current student and lifelong learner.
+      - Inter-disciplinary developer with experience in front and back end development, systems development, specializing in DevOps and CD/CI workflows.
     education:
       - institution: University of Twente
         area: Technical Computer Science
@@ -27,25 +25,15 @@ cv:
         location: Enschede, Netherlands
         summary:
     projects:
-      - name: '[Curriculum Vitae](https://github.com/valyntyler/cv)'
-        date: 2026-02
-        summary: Declarative CV built from `YAML` and overengineered with Nix
-      - name: '[Wofizilla](https://github.com/valyntyler/wofizilla)'
-        date: 2025-03
-        highlights:
-          - Dead simple tool for picking between your Firefox profiles
-          - Built on Wofi, with Nushell and Nix
-      - name: '[NixOS config](https://github.com/valyntyler/dotnixos)'
-        start_date: 2024
-        end_date: present
-        summary:
-          Linux dotfiles and multi-system configuration. The Nix declarative-functional paradign ensures
-          atomicity and reproducibility for a reliable and performant and system solution.
-      - name: '[NVF config](https://github.com/valyntyler/dotnvf)'
-        start_date: 2025
-        end_date: present
-        summary:
-          My personal editor. Atomic and reproducible, bringing fined tuned, highly performant agentic workflows to any machine.
+      - name: '[`ARROWFUNC.NOW`](https://arrowfunc.now)'
+        date: 2025-11
+        summary: ICPC team website built with Vue and `textmode.js`.
+      - name: '[Nautilus Maze](https://valyntyler.github.io/nautilus-maze/)'
+        date: 2025-06
+        summary: Program your little robot to solve mazes.
+      - name: '[JS Calculator](https://valyntyler.github.io/js-calculator/)'
+        date: 2024-10
+        summary: A simple and responsive Vanilla JS calculator app with a charming UI.
       - name: '[Toy Game Engine](https://github.com/valyntyler/suoi_game)'
         date: 2024-05
         summary: A basic 3D Game Engine written in Rust, from scratch.
@@ -94,11 +82,11 @@ cv:
       - bullet: '**Brackeys Game Jam 2022.2**, Contest Submission'
     skills:
       - label: Languages
-        details: Rust, C++, C#, Kotlin, Typescript, Go, Nix
+        details: HTML, CSS, Typescript, C++, Rust, Go, Kotlin, SQL
       - label: Infrastructure
-        details: Linux, Git/VC, Docker/OCI, NixOS
+        details: Linux, Git, Docker
       - label: Tools & Frameworks
-        details: .NET, Unity, Vue.js, Jetpack Compose
+        details: 'Vue.js, `.NET`, Unity, Godot, Jetpack Compose'
 design:
   theme: classic
   # page:
